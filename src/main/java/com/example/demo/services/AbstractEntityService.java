@@ -24,4 +24,9 @@ public abstract class AbstractEntityService<E extends AbstractEntity, R extends 
     public E getById(int id) {
         return repository.findById(id).orElse(null);
     }
+
+    @Override
+    public int getCount() {
+        return repository.count();
+    }
 }

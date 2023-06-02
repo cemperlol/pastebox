@@ -7,4 +7,6 @@ public interface CommonEntityService<E extends AbstractEntity> {
     E save(E entity);
 
     E getById(int id);
+
+    int getCount();
 }

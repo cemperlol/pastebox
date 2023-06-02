@@ -1,9 +1,10 @@
-package com.example.demo.services;
+package com.example.demo.services.pastebox;
 
 import com.example.demo.dto.PasteboxRequest;
 import com.example.demo.dto.PasteboxResponse;
 import com.example.demo.dto.PasteboxUrl;
-import com.example.demo.model.Pastebox;
+import com.example.demo.model.pastebox.Pastebox;
+import com.example.demo.services.CommonEntityService;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package com.example.demo.dto;
 
-import com.example.demo.model.PasteboxRestrictions;
+import com.example.demo.model.pastebox.PasteboxRestrictions;
 import lombok.Data;
 
 @Data

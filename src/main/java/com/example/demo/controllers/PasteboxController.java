@@ -3,8 +3,8 @@ package com.example.demo.controllers;
 import com.example.demo.dto.PasteboxRequest;
 import com.example.demo.dto.PasteboxResponse;
 import com.example.demo.dto.PasteboxUrl;
-import com.example.demo.model.Pastebox;
-import com.example.demo.services.PasteboxService;
+import com.example.demo.model.pastebox.Pastebox;
+import com.example.demo.services.pastebox.PasteboxService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

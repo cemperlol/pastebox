@@ -1,13 +1,14 @@
-package com.example.demo.services;
+package com.example.demo.services.pastebox;
 
 import com.example.demo.config.ConfigProperties;
 import com.example.demo.dto.PasteboxRequest;
 import com.example.demo.dto.PasteboxResponse;
 import com.example.demo.dto.PasteboxUrl;
 import com.example.demo.exceptions.EntityNotFoundException;
-import com.example.demo.model.Pastebox;
-import com.example.demo.model.PasteboxRestrictions;
-import com.example.demo.repositories.PasteboxRepository;
+import com.example.demo.model.pastebox.Pastebox;
+import com.example.demo.model.pastebox.PasteboxRestrictions;
+import com.example.demo.repositories.pastebox.PasteboxRepository;
+import com.example.demo.services.AbstractEntityService;
 import com.example.demo.utils.generators.IdGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

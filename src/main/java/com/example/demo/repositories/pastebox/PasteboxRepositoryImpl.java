@@ -1,6 +1,6 @@
-package com.example.demo.repositories;
+package com.example.demo.repositories.pastebox;
 
-import com.example.demo.model.Pastebox;
+import com.example.demo.model.pastebox.Pastebox;
 import org.springframework.stereotype.Repository;
 
 import java.util.HashMap;

@@ -1,6 +1,7 @@
-package com.example.demo.repositories;
+package com.example.demo.repositories.pastebox;
 
-import com.example.demo.model.Pastebox;
+import com.example.demo.model.pastebox.Pastebox;
+import com.example.demo.repositories.CommonEntityRepository;
 
 import java.util.Optional;
 
