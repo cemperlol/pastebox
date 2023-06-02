@@ -7,16 +7,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 public class AbstractEntityService<E extends AbstractEntity, R extends CommonEntityRepository<E>>
         implements CommonEntityService<E> {
 
-    private R repository;
+    protected R repository;
 
     @Autowired
+    @SuppressWarnings("SpringJavaInjectionPointsAutowiringInspection")
     public AbstractEntityService(R repository) {
         this.repository = repository;
     }
 
     @Override
     public E save(E entity) {
-        return repository.save(entity).orElse(null);
+        return repository.save(entity);
     }
 
     @Override
