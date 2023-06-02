@@ -14,4 +14,6 @@ public interface CommonEntityRepository<E extends AbstractEntity> {
     Optional<E> findById(int id);
 
     List<E> findAll();
+
+    int count();
 }

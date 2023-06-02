@@ -11,6 +11,8 @@ import java.time.LocalDateTime;
 @Getter @Setter
 public class Pastebox extends AbstractEntity {
 
+    private String data;
+
     private String hash;
 
     private LocalDateTime expirationTime;

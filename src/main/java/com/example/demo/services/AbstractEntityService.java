@@ -4,7 +4,7 @@ import com.example.demo.model.AbstractEntity;
 import com.example.demo.repositories.CommonEntityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
-public class AbstractEntityService<E extends AbstractEntity, R extends CommonEntityRepository<E>>
+public abstract class AbstractEntityService<E extends AbstractEntity, R extends CommonEntityRepository<E>>
         implements CommonEntityService<E> {
 
     protected R repository;

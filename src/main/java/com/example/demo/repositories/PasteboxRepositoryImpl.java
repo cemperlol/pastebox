@@ -34,4 +34,9 @@ public class PasteboxRepositoryImpl implements PasteboxRepository {
     public List<Pastebox> findAll() {
         return vault.values().stream().toList();
     }
+
+    @Override
+    public int count() {
+        return vault.size();
+    }
 }

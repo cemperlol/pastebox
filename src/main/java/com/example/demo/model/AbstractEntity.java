@@ -10,9 +10,9 @@ import javax.persistence.MappedSuperclass;
 
 @MappedSuperclass
 @Getter @Setter
-public class AbstractEntity {
+public abstract class AbstractEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     int id;
 }
