@@ -1,6 +1,5 @@
 package com.example.demo.model.pastebox;
 
-
 import com.example.demo.model.AbstractEntity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
